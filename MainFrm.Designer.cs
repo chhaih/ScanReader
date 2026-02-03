@@ -34,12 +34,13 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.pictureBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.pictureBox1.Location = new System.Drawing.Point(66, 34);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(861, 528);
+            this.pictureBox1.Size = new System.Drawing.Size(857, 528);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // MainFrm
             // 
