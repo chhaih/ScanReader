@@ -274,5 +274,11 @@ namespace ScanReader
             }
             textBox_barcode.Text = "";
         }
+
+        private void btn_newFrm_Click(object sender, EventArgs e)
+        {
+            Form2 frm2 = new Form2();
+            frm2.ShowDialog(); 
+        }
     }
 }

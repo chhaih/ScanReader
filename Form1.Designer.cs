@@ -37,6 +37,7 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.textBox_barcode = new System.Windows.Forms.TextBox();
             this.button_clear = new System.Windows.Forms.Button();
+            this.btn_newFrm = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -123,11 +124,23 @@
             this.button_clear.UseVisualStyleBackColor = true;
             this.button_clear.Click += new System.EventHandler(this.button_clear_Click);
             // 
+            // btn_newFrm
+            // 
+            this.btn_newFrm.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_newFrm.Location = new System.Drawing.Point(827, 19);
+            this.btn_newFrm.Name = "btn_newFrm";
+            this.btn_newFrm.Size = new System.Drawing.Size(75, 23);
+            this.btn_newFrm.TabIndex = 8;
+            this.btn_newFrm.Text = "打开新窗口";
+            this.btn_newFrm.UseVisualStyleBackColor = true;
+            this.btn_newFrm.Click += new System.EventHandler(this.btn_newFrm_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1264, 661);
+            this.Controls.Add(this.btn_newFrm);
             this.Controls.Add(this.button_clear);
             this.Controls.Add(this.textBox_barcode);
             this.Controls.Add(this.pictureBox2);
@@ -159,6 +172,7 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.TextBox textBox_barcode;
         private System.Windows.Forms.Button button_clear;
+        private System.Windows.Forms.Button btn_newFrm;
     }
 }
 
